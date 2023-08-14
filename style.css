@@ -28,9 +28,9 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{
+ .logo{
         width: 140px;
-}
+} 
 nav  ul li{
     display: inline-block;
     list-style: none;
@@ -44,7 +44,7 @@ nav ul li a{
     position:relative;
 }
 nav ul li a::after{
-    content: ' ';
+    content: '';
     width: 0;
     height: 3px;
     background: #ff004f;
