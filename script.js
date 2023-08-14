@@ -1,3 +1,6 @@
+/////////////////////////////////////////about me (tablinks)
+
+
 var tablinks =  document.getElementsByClassName("tab-links")
 var tabcontents =  document.getElementsByClassName("tab-contents")
 
@@ -13,6 +16,8 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab");
 }
 
+/////////////////////////////////////////////////// for onclick function
+
 var sidemeu = document.getElementById("sidemenu");
 function openmenu(){
     sidemeu.style.right = "0";
@@ -20,7 +25,7 @@ function openmenu(){
 function closemenu(){
     sidemeu.style.right = "-200px";
 }
-
+/////////////////////////////////////////////////// for the google-sheet
 
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwvaXLfojnXolExp95IxLjpd3vHwpetHvcDqFdmKG62UA9EZMGFngSNat4CCiF-3iPKyw/exec'
         const form = document.forms['submit-to-google-sheet']
